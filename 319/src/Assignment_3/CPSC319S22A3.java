@@ -98,6 +98,7 @@ class LinkedList {
 	}
 }
 
+//This class contains the methods to get a list of words and sort them into anagrams
 public class CPSC319S22A3 {
 
 	static ArrayList<String> input = new ArrayList<String>();
@@ -219,7 +220,6 @@ public class CPSC319S22A3 {
 		}
 		Collections.sort(input);
 	}
-	
 	
 	// !!! DO *NOT* WRITE YOUR SOLUTION IN THIS METHOD !!!
 	public static void main(String[] args) throws IOException {
